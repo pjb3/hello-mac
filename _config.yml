@@ -1,3 +1,4 @@
 name: Hello, Mac!
 markdown: redcarpet
 pygments: true
+baseurl: /hello-mac

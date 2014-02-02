@@ -2,13 +2,13 @@
   <ul>
     <li class="prev">
       {% if page.prev_page.title %}
-        <a href="{{ page.prev_page.path }}">&laquo; {{ page.prev_page.title }}</a>
+        <a href="{{ site.baseurl }}/{{ page.prev_page.path }}">&laquo; {{ page.prev_page.title }}</a>
       {% endif %}
     </li>
     <li></li>
     <li class="next">
       {% if page.next_page.title %}
-        <a href="{{ page.next_page.path }}">{{ page.next_page.title }} &raquo;</a>
+        <a href="{{ site.baseurl }}/{{ page.next_page.path }}">{{ page.next_page.title }} &raquo;</a>
       {% endif %}
     </li>
   </ul>
