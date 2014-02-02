@@ -1,0 +1,151 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font-family: Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; line-height: 1.5em; }
+
+a         { color: #00a; }
+a:hover   { color: #00a; }
+a:visited { color: #00a; }
+
+pre {
+  font-family: Monaco, "Courier New", monospace;
+}
+
+img {
+  margin: 20px 0;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  width: 960px;
+  min-height: 800px;
+  margin: 20px auto;
+}
+
+.site h1 {
+  font-weight: normal;
+  font-size: 2.5em;
+}
+
+.site h2 {
+  font-weight: normal;
+  font-size: 1.8em;
+}
+
+.site h1 a,
+.site h2 a,
+.site h3 a {
+  text-decoration: none;
+}
+
+.site h1 a {
+  color: black;
+}
+
+.site h2 a,
+.site h3 a {
+  color: #00a;
+}
+
+.site h1 a:hover,
+.site h2 a:hover,
+.site h3 a:hover {
+  text-decoration: underline;
+}
+
+.site nav {
+  width: 100%;
+  display: table;
+}
+
+.site nav ul {
+  list-style-type: none;
+  display: table-row;
+  margin: 0;
+  padding: 0;
+}
+
+.site nav ul li {
+  display: table-cell;
+  width: 33%;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.site nav ul li.prev {
+  text-align: left;
+}
+
+.site nav ul li.next {
+  text-align: right;
+}
+
+.site article {
+  min-height: 600px;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+  line-height: 0px;
+}
+
+sup a {
+  text-decoration: none;
+  text-color: #00a;
+  padding: 3px;
+}
+
+sup a:hover {
+  text-decoration: underline;
+}
+
+ol.footnotes {
+  border-top: 1px solid #aaa;
+  margin: 0;
+  padding: 1em 0 1em 2em;
+}
+
+ol.footnotes li {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+#chapters li {
+  line-height: 2.5em;
+}
+
+#chapters ul li {
+  list-style: none;
+  margin: 0 1em;
+  padding: 0;
+}
